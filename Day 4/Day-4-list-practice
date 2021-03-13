@@ -1,0 +1,23 @@
+states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Connecticut", "Massachusetts", "Maryland", "South Carolina", "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island", "Vermont", "Kentucky", "Tennessee", "Ohio", "Louisiana", "Indiana", "Mississippi", "Illinois", "Alabama", "Maine", "Missouri", "Arkansas", "Michigan", "Florida", "Texas", "Iowa", "Wisconsin", "California", "Minnesota", "Oregon", "Kansas", "West Virginia", "Nevada", "Nebraska", "Colorado", "North Dakota", "South Dakota", "Montana", "Washington", "Idaho", "Wyoming", "Utah", "Oklahoma", "New Mexico", "Arizona", "Alaska", "Hawaii"]
+
+print(states_of_america)
+
+#To print the element in index 12
+print(states_of_america[12])
+
+#To print the 3rd last element
+print(states_of_america[-3])
+
+dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
+
+#To replace the element in index 3
+dirty_dozen[3]="Cabbage"
+print(dirty_dozen)
+
+#To add an item to the end of the list
+dirty_dozen.append("Mango")
+print(dirty_dozen)
+
+#To add multiple elements into the list
+dirty_dozen.extend(["Berry","Coconut","Cashew"])
+print(dirty_dozen)
