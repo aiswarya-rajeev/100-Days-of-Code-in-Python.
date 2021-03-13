@@ -1,0 +1,11 @@
+name = "Jack"
+print(name)
+
+name = "Disoosa"
+print(name)
+
+
+name = input("What is your name? ")
+length = len(name)
+print(length)
+0 comments on commit 88d8669
