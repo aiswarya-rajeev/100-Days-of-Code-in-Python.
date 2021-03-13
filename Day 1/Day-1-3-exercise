@@ -1,0 +1,7 @@
+print(len(input("What is your name? ")))
+
+#for more clarification, by using individual steps:
+
+#a=input("What is your name? ")
+#b=len(a)
+#print(b)
